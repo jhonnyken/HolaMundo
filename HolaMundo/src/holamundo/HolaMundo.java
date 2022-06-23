@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package holamundo;
 
 import java.util.Random;
@@ -17,7 +14,7 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Acabaste de hacer un pull de los cambios");
-        System.out.println("El numero random es "+randomNumber().toString());
+        System.out.println((int)(Math.random()*10+1) + "  El numero random es ");
     }
 
     public Integer randomNumber(){
