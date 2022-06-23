@@ -4,6 +4,8 @@
  */
 package holamundo;
 
+import java.util.Random;
+
 /**
  *
  * @author juan
@@ -15,6 +17,13 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Acabaste de hacer un pull de los cambios");
+        System.out.println("El numero random es "+randomNumber().toString());
+    }
+
+    public Integer randomNumber(){
+        Random random = new Random();
+
+        return random.nextInt();
     }
     
 }
